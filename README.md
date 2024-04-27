@@ -15,8 +15,14 @@ Individul is for personal usage. To add collaborators goes to repository settign
 e. What is the difference between git and GitHub?   
 Git it is version controll system. Github is web resource which host remote git distibutions and shares web ui fot convinient collaboration.   
 f. What does git diff do?   
-From man (c) -    [](url)
+From man (c) - 
 git-diff - Show changes between commits, commit and working tree, etc.
+
+g. What is the main branch?
+Main or amster is default initial branch. The ussual purpose of that branch is to keep release and stable project version.   
+h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?   
+No ussually main / master branch keeps latest (head) stable version of project. In most case engineers make new branch were they complete work. Create PR to represent changes and to pass review and than merge to main branch.   [](url)
+
 
 
 
